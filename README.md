@@ -19,12 +19,12 @@ Conways "Game Of Life" in Haskell
 - Recent versions of Cabal and GHC
 
 ## Building
-1. clone repository:
+1. Clone repository:
     ```
     git clone https://github.com/Fabus1184/haskells-game-of-life.git && cd haskells-game-of-life
     ```
 
-2. build & run cabal project
+2. Build & run cabal project
     ```
     cabal build && cabal run
     ```
