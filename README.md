@@ -7,20 +7,24 @@ Conways "Game Of Life" in Haskell
 
 # Binary releases
 
-- releases can be found [here](https://github.com/Fabus1184/haskells-game-of-life/releases)
+- Precompiled binaries can be found [here](https://github.com/Fabus1184/haskells-game-of-life/releases)
 
-- libgmp may be required
+## Requirements
+- Depending on the exact build libgmp may be required
+- Terminal emulator with unicode support
 
 # Building from Source
 
-- requires recent cabal and ghc versions
+## Requirements
+- Recent versions of Cabal and GHC
 
-clone repository:
-```
-git clone https://github.com/Fabus1184/haskells-game-of-life.git && cd haskells-game-of-life
-```
+## Building
+1. clone repository:
+    ```
+    git clone https://github.com/Fabus1184/haskells-game-of-life.git && cd haskells-game-of-life
+    ```
 
-build & run cabal project
-```
-cabal build && cabal run
-```
+2. build & run cabal project
+    ```
+    cabal build && cabal run
+    ```
